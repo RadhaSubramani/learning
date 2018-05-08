@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Username" value="DemoSalesManager"/>
+  <parameter name="URL" value="http://www.leaftaps.com/control/main"/>
+  <parameter name="Password" value="crmsfa"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Parametrization.Dataprovider">
+        <methods>
+          <include name="createlead"/>
+        </methods>
+      </class> <!-- Parametrization.Dataprovider -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
